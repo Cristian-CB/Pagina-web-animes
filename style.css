@@ -1,0 +1,542 @@
+
+
+body{background-color: #181918;
+margin: 0;
+margin-top: 10px;}
+/* 
+header
+*/
+.header >h1,p{display: flex;
+align-items: center;
+justify-content: center;
+font: bold;
+color:#ececec;
+
+}
+.descripcion{
+  margin-bottom: 20px;
+  color:#FE9D15;
+    
+}
+
+
+
+
+.imagen {
+    display: block;
+    margin: 0 auto;
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+}
+
+/* 
+
+index 
+*/
+.boton{display: inline-block;
+   background-color: purple;
+ border-radius: 10px;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+width: fit-content;
+}
+.boton:hover{
+
+background-color: rgb(82, 65, 82);
+
+}
+.mainindex{margin: 10px 40px;}
+.tituloIndex{color: white;
+  font: bold;
+  
+margin-left: 60px;}
+
+
+
+/* 
+
+nav
+*/
+
+
+.nav {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 20px;              
+  padding: 15px 20px;
+  background-color: #222224; 
+  margin: 0;
+}
+
+.nav > div {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+}
+
+.logo {
+  height: 100px;
+  width: 120px;
+  margin-right: 60px;
+  object-fit: cover;
+  
+}
+
+.boton {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.boton:hover {
+  color: #a855f7; /* Cambia a morado claro al pasar el mouse */
+}
+.boton1 {
+  display: inline-block;
+  color: #ffffff;
+ 
+  
+  font-weight: bold;
+  padding: 8px 10px;}
+  .boton1{
+   background-color: rgb(155, 7, 81);
+ border-radius: 10px;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+
+}
+
+
+
+.navegacion{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);}
+
+
+
+
+
+
+
+section.animesAdd{
+
+align-items: center;
+border-radius: 15px;
+padding: 20px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+  
+}
+
+
+
+.itemAnime{width: 280px;
+}
+.item{
+
+width:100%;
+height: 400px;
+
+
+display: flex;
+flex-direction: column;
+text-align: center;
+border-radius: 25px;
+align-items: center;
+overflow: hidden;
+
+
+}
+section.animesAdd >.itemAnime {
+text-align: left;
+padding: 0;
+margin: 0;
+
+}
+
+
+ .animesAdd img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+    
+    
+
+  object-fit: contain;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  box-shadow: 1px 5px  10px black;
+    
+
+}
+
+
+.item  h2 { 
+    display: none;
+    
+}
+.item{position: relative;}
+.item .content { 
+    display: flex;
+    flex-direction: row;
+    
+
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    left: 110px;
+   
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+    
+.item .content p{
+   
+   font: bold;
+    color: white;
+    margin: 3px;
+    display: inline-block;
+    background-color: #FF0046;
+    border: 0 solid black;
+    border-radius: 20px;
+    padding: 5px;
+    white-space: nowrap;
+
+      
+    
+}
+.itemAnime{text-align: center;}
+.textoDebajo {
+    color: white;
+    
+}
+
+/*
+catalogo
+*/
+.catalogo{margin: 20px;}
+form.elegirGenero {
+ 
+  margin: 20px;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 20px;
+}
+form.elegirGenero select {
+   
+  
+  padding: 15px;
+  width: fit-content;
+  border-radius: 20px;}
+
+  /*
+dashboard
+*/
+
+.texto {
+    color: white;
+    margin-bottom: 20px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(53, 53, 54);
+    white-space: nowrap;
+    gap: 20px;
+}
+
+.texto div {
+    margin: 0;
+}
+
+.texto h1,
+.texto h2,
+.texto p {
+    margin: 0;
+}
+
+ /*
+login
+*/
+
+.error {
+    color: #ff4d6d;
+    font-size: 14px;
+    margin: 5px 0;
+  
+}
+.input-error{
+border: 1px solid red !important;
+
+
+
+
+}
+.input-error:hover{
+  box-shadow: 0px 0px 10px rgb(240, 51, 51) !important;
+ 
+}
+
+
+
+.logo1 {
+    height: 100px;
+    width: 120px;
+    margin-right: 0;
+    object-fit: cover;
+}
+.inicio{
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #101014;
+}
+.inicioSesion{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+ background-color: #18181C;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+  border: 1px solid #f3f2f3;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+.inicioSesion input{
+  color: white;
+  font: bold;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 7px;
+  outline: rgb(172, 137, 137);
+  border: 1px solid white;
+  background-color: #25252c;
+  display: flex;
+  text-align: center  ;
+}
+.inicioSesion button:hover{
+  box-shadow: 0px 0px 10px white;
+}
+.inicioSesion input:hover{
+  box-shadow: 0px 0px 10px white;
+}
+
+
+.inicioSesion button{
+  color: white;
+  padding: 10px;
+  background-color: #272936;
+border-radius: 15px;
+border: 1px solid white;
+width: 200px;
+height: 20px;
+display: flex;
+text-align: center;
+align-items: center;}
+.inicioSesion h2{
+margin-top: 40px;}
+.inicioSesion button:hover{
+  transform: translateY(-10px);
+  background-color:   #6a6d83;
+  color: #000;
+
+
+}
+.inicioSesion button{transition: transform 0.5s ease-in-out}
+
+#botoncito {
+  padding: 10px;
+  width: 300px;
+  background-color: #26BBFF ;
+  font: bold;
+  color: black;
+}
+#botoncito:hover{
+  background-color: #6ac2eb;
+  transform: translateY(-10px);
+}
+#botoncito{
+   transition: transform 0.3s ease-in-out
+}
+
+.inicioSesion1 {
+    display: block;
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    
+    border-radius: 10px;
+
+ background-color: #18181C;
+  
+  padding: 10px;
+  
+  border: 1px solid #f3f2f3;
+  border-radius: 20px;
+  color: white;
+  
+}
+
+.inicioSesion1 label {
+    display: block;
+    margin-top: 12px;
+}
+
+.inicioSesion1 input,
+.inicioSesion1 select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  color: white;
+  font: bold;
+ 
+  border-radius: 10px;
+ 
+  outline: rgb(172, 137, 137);
+  border: 1px solid white;
+  background-color: #25252c;
+ 
+
+    
+}
+
+.inicioSesion1 button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4F46E5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.inicioSesion1 button:hover {
+  
+    background-color: #4b3de0;
+}
+
+
+.logo2{    height: 100px;
+    width: 120px;
+    margin-left: 80;
+    object-fit: cover;
+}
+
+.inicioSesion{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+ background-color: #18181C;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  height: 500px;
+  border: 1px solid #f3f2f3;
+  border-radius: 20px;
+  color: white;
+  justify-content: center;
+}
+.inicioSesion input{
+  color: white;
+  font: bold;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 7px;
+  outline: rgb(172, 137, 137);
+  border: 1px solid white;
+  background-color: #25252c;
+  display: flex;
+  text-align: center  ;
+}
+.inicioSesion button:hover{
+  box-shadow: 0px 0px 10px white;
+}
+.inicioSesion input:hover{
+  box-shadow: 0px 0px 10px white;
+}
+
+
+.inicioSesion a{
+  color: white;
+  text-decoration: none;
+ }
+
+ .inicioSesion a:hover{
+color: rgb(142, 107, 143);}
+.inicioSesion h2{
+margin-top: 40px;}
+
+
+
+
+
+
+.itemAnime:hover {
+    transform: translateY(-30px); 
+     
+}
+
+
+
+.imagen {
+    transition: transform 0.3s ease;
+}
+
+.itemAnime:hover .imagen {
+    transform: scale(1.08);
+}
+
+
+.itemAnime:hover .textoDebajo {
+    color: #cba6f7;
+}
+body{ min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;}
+
+
+footer {
+    background-color: #313133;
+    color: #a6adc8;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 1px solid #313244;
+    font-size: 14px;
+    line-height: 2;
+    margin-top: auto; 
+}
+
+.tituloAddAnime{
+  color: white;
+  margin-left: 50px;
+}
+.animesAdd > div{margin-left: 30px;}
